@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Page</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .mainbox {
+            background-color: magenta;
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+        }
+
+        .childbox {
+            height: 7vh;
+            width: 20vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td width="15%" bgcolor="green">
+                <img style="border-radius: 100%; padding: 10px;" src="ak.avif" width="200">
+            </td>
+            <td width="85%" bgcolor="green" align="center">
+                <h1 style="color: aliceblue;">Welcome to My Art Gallery</h1>
+                <h2 style="color: white;">Animals and Nature</h2>
+            </td>
+        </tr>
+    </table>
+       
+    <div class="mainbox">
+        <a href="./index.html">
+            <div class="childbox" style="background-color: burlywood;">Home</div>
+        </a>
+        <a href="./ContactUs.html">
+            <div class="childbox" style="background-color: blueviolet;">Contact Us</div>
+        </a>
+        <a href="./Gallery.html">
+            <div class="childbox" style="background-color: brown;">Gallery</div>
+        </a>
+    </div>
+    <table>
+        <tr>
+            <td width="50%">
+                <img src="download.jpeg" alt="image">
+            </td>
+            <td width="50%">
+                <iframe width="400" height="250" src="https://www.youtube.com/embed/R34_zg6Du_Y" frameborder="0"
+                    allowfullscreen>
+                </iframe>
+            </td>
+        </tr>
+    </table>
+
+    <table bgcolor="green">
+        <tr>
+            <td width="50%">
+                <img src="images (1).jpeg" alt="image">
+            </td>
+            <td width="50%">
+                <img src="images.jpeg" alt="image">
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

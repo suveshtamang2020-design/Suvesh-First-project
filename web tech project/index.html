@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .mainbox {
+        background-color: magenta;
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .childbox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+
+<body>
+    <table width="100%">
+        <tr>
+            <td width="15%" bgcolor="green">
+                <img style="border-radius: 100%;padding: 10px;" src="ak.avif" alt="" srcset="" width="200" height="200">
+            </td>
+            <td width="85%" bgcolor="green" align="center">
+                <h1 style="color: aliceblue;">welcome to my art gallery</h1>
+                <h2 style="color: white;">Animals and Nature</h2>
+            </td>
+        </tr>
+    </table>
+
+    <div class="mainbox">
+        <a href="./index.html">
+            <div class="childbox" style="height: 7vh; width: 20vh; background-color: burlywood;">Home</div>
+        </a>
+        <a href="./ContactUs.html">
+            <div class="childbox" style="height: 7vh; width: 20vh; background-color: blueviolet;">Contact Us</div>
+        </a>
+        <a href="./Gallery.html">
+            <div class="childbox" style="height: 7vh; width: 20vh; background-color: brown;">Gallery</div>
+        </a>
+
+    </div>
+    <div style="width: 100%; height: 70vh; display: flex; justify-content: center; padding-top: 40px;">
+        <form action="" method="post">
+            <tr>
+                <td>
+                    <label for="Uname"><b>User Name</b></label>
+                    <input type="text" placeholder="Enter Your Nmae" name="uname" required>
+                </td><br></br>
+                <td>
+                    <label for="password"><b>Password</b></label>
+                    <input type="text" placeholder="Enter Password" name="password" required>
+                </td><br></br>
+                <td>
+                    <button type="submit">Submit</button>
+                </td><br></br>
+                <td>
+                    <label>
+                        <input type="checkbox" check="Checked" name="rember">show
+                    </label>
+                </td><br></br>
+                <td>
+                    <button type="forgetpassword">Forget Password</button>
+                </td><br></br>
+            </tr>
+        </form>
+    </div>
+</body>
+
+</html>
